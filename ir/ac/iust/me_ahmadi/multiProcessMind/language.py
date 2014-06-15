@@ -2,7 +2,6 @@ import pyparsing as pp
 import sys
 import traceback
 import random
-import macro 
 import re
 import copy
 from mdatetime import MDateTime
@@ -15,7 +14,6 @@ class Language(object):
     def __init__(self,mind):
         self.mind = mind
         self.initialParser()
-        self.macro = macro.Macro(self.mind)
     def log(self,something):
         self.mind.log(something)
     def error(self,errorType,command):
@@ -96,8 +94,6 @@ class Language(object):
                  val = val.strip("\"")
             result[nv[0]] = val
         return result
-    def parseMacro(self,s,loc,tokens):
-        return [self.macro.run(tokens[0][0],tokens[0][1:])]
     def parseObjectId(self,s,loc,tokens):
         return [self.db.node[int(tokens[0][0])]]
     def parseVarToId(self,s,loc,tokens):
@@ -489,7 +485,7 @@ class Language(object):
         #phase 1: find what is cypher create connect set findOrCreate
         #phase 2: event place time see
         #phase 3: action then
-        #phase 4: saying macro search
+        #phase 4: saying  search
         
 #    def settimeCommand(self,args):
 #        #TODO: time +/- time
