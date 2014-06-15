@@ -1,0 +1,11 @@
+#assistant_container.enabled{background-color:yellow}
+
+#assistant_container{
+		background-color:transparent;
+        position:fixed;
+        bottom:5px;
+        border-width:0.5px;
+        border-color:#98bf21;
+        left:20px;
+        z-index:999;
+        display:block}
