@@ -1,4 +1,4 @@
-nsun
+nsun <img src="icon.ico" width="50" height="50" />
 ====
 
 when you are exist in virtual world
