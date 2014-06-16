@@ -3,6 +3,13 @@ nsun
 
 when you are exist in virtual world
 
+Some important pages for start:
+* [[Global Architecture|Architecture]]
+* [[Body Architecture|Body]]
+* [[History|History]]
+* [[Mind Language|Language]]
+* [[Mind Windows|MindWindows]]
+
 Dependencies
 ====
 
