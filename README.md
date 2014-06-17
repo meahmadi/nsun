@@ -1,7 +1,7 @@
 nsun <img src="icon.ico" width="50" height="50" />
 ====
 
-when you are exist in virtual world
+see [homepage](http://meahmadi.github.io/nsun/)
 
 Some important pages for start:
 * [Global Architecture](https://github.com/meahmadi/nsun/wiki/Architecture)
