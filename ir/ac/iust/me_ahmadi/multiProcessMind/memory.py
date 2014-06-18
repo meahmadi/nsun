@@ -1,6 +1,8 @@
 import os
 
 os.environ['NEO4J_PYTHON_JVMARGS'] = '-Xms128M -Xmx512M'
+os.environ['JAVA_HOME'] = '/usr/lib/jvm/java-6-openjdk-amd64'
+
 from neo4j import GraphDatabase
 
 
