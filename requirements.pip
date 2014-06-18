@@ -1,0 +1,5 @@
+lucene-querybuilder==0.2
+neo4jrestclient==2.0.3
+pyparsing==2.0.2
+requests==2.3.0
+wsgiref==0.1.2
