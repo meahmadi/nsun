@@ -10,6 +10,16 @@ Some important pages for start:
 * [Mind Language](https://github.com/meahmadi/nsun/wiki/Language)
 * [Mind Windows](https://github.com/meahmadi/nsun/wiki/MindWindows)
 
+Architecture
+====
+HCI Architecture
+
+![HCI Model](https://github.com/meahmadi/nsun/raw/master/documentation/HCI%20archtecture.png)
+
+Agent Architecture
+
+![Cognitive Architecture](https://github.com/meahmadi/nsun/raw/master/documentation/architecture.png)
+
 Dependencies
 ====
 
